@@ -1,0 +1,6 @@
+title: Kunstschmiede Johannes Pilz
+author: Johannes Pilz
+baseurl: 
+domain: johannespilz.de
+paginate: 1
+permalink: /:title
