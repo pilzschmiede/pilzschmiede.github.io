@@ -918,9 +918,11 @@
 				letter-spacing: 0.15em;
 				line-height: 1.2em;
 				text-align: center;
-                font-size: 1.1em !important;
+                font-size: 27px !important;
 			}
-			
+			#logo a > span b {
+			    font-size: 18px !important;
+			}
 			#logo a > span b:last-child
 			{
 				display: block;
