@@ -222,7 +222,10 @@
 			#logo a > span
 			{
 				padding: 0.5em 0em;
-				font-size: 0.9em;
+				font-size: 16px !important;
+			}
+			#logo a > span b {
+			    font-size: 11px !important;
 			}
 
 /*********************************************************************************/
