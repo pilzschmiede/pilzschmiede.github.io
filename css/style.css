@@ -14,7 +14,7 @@
 
 	body
 	{
-		background: #3b3b3b;
+		background:  #3b3b3b;
 		font-family: 'Balthazar', sans-serif;
 		font-size: 11pt;
 		font-weight: 300;
@@ -854,12 +854,13 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #3b3b3b;
+		background: #3b3b3b url(../images/watermark.png) no-repeat fixed;
+        
 	}
 	
 	.homepage #main-wrapper
 	{
-		background: #3b3b3b;
+		background: #3b3b3b url(../images/watermark.png) no-repeat fixed;
 	}
 	
 	#footer-wrapper
@@ -1027,3 +1028,10 @@
 		{
 			border-right: none;
 		}
+        
+        
+/**********/
+/* Custom */
+
+#galleria{height:540px}
+                
