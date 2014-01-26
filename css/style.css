@@ -887,7 +887,7 @@
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: normal;
-        font-face: "Book Antiqua";
+        font-family: "Book Antiqua",'Balthazar';
 	}
 	
 		#logo:after
@@ -918,6 +918,7 @@
 				letter-spacing: 0.15em;
 				line-height: 1.2em;
 				text-align: center;
+                font-size: 1.1em !important;
 			}
 			
 			#logo a > span b:last-child
