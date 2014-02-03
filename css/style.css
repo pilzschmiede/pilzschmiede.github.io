@@ -14,7 +14,7 @@
 
 	body
 	{
-		background:  #3b3b3b;
+		background:  #3b3b3b url(../images/watermark.png);
 		font-family: 'Book Antiqua', 'Palatino Linotype', 'Balthazar', sans-serif;
 		font-size: 11pt;
 		font-weight: 300;
@@ -854,13 +854,13 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #3b3b3b url(../images/watermark.png) no-repeat fixed;
+		background: #3b3b3b url(../images/watermark.png) repeat ;
         
 	}
 	
 	.homepage #main-wrapper
 	{
-		background: #3b3b3b url(../images/watermark.png) no-repeat fixed;
+		background: #3b3b3b url(../images/watermark.png) repeat ;
 	}
 	
 	#footer-wrapper
