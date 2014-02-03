@@ -877,13 +877,23 @@
 /* Logo                                                                          */
 /*********************************************************************************/
 
+    #logo-man { 
+        position: relative;
+        z-index: 1;
+        top: -80px;
+        left: 80px;
+		background: transparent url('/images/logo_small_t.png') no-repeat;
+        height: 100px;
+        width: 120px;
+    }
+
 	#logo
 	{
 		position: absolute;
 		z-index: 1;
 		top: 0;
 		left: 50%;
-		background: #a71b27 url('/images/logo_small.png') no-repeat 75px 80px  ;
+		background: #a71b27;
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: normal;
