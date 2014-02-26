@@ -1,0 +1,17 @@
+- name: Handlauf geschmiedet
+  datei: treppe_1
+
+- name: Handlaufende
+  datei: treppe_2
+
+- name: Handlauf
+  datei: treppe_3
+
+- name: Handlauf Schlosskeller
+  datei: treppe_4
+
+- name: Geschmiedete Handläufe
+  datei: treppe_5
+
+- name: Handlauf geschmiedet
+  datei: treppe_6
