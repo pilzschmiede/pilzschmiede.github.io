@@ -1,8 +1,8 @@
 - name: Handlauf geschmiedet
   datei: treppe_1
 
-- name: Handlaufende
-  datei: treppe_2
+- name: Balkongeländer
+  datei: balkonschiller
 
 - name: Handlauf
   datei: treppe_3
