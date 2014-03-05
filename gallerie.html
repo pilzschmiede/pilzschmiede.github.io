@@ -15,14 +15,14 @@ title:  Galerie
 						</header>
                         <p>Unsere Arbeit beginnt mit Ihren Vorstellungen und Ideen und der individuellen Planung des Produkts. Gemeinsam mit Ihnen suchen wir konkrete Lösungen, die sich an die architektonischen Gegebenheiten anpassen. Details werden in einer Vorabskizze ausgearbeitet oder in einer dreidimensionalen Computerzeichnung anschaulich gemacht. So erhalten Sie eine genaue Vorstellung vom späteren Ergebnis und können Ihre Wünsche während der gesamten Planungsphase einbringen.</p>
 
-				<h2>Treppen und Geländer</h2>
+				<h2>Treppen, Geländer und Zäune</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.treppen %}
                 <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
                 {% endfor %}
                 </nav>
 
-				<h2>Heim und Garten</h2>
+				<h2>Möbel und Accessoires</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.heimgarten %}
                 <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
@@ -43,7 +43,7 @@ title:  Galerie
                 {% endfor %}
                 </nav>
 
-				<h2>Zäune</h2>
+				<h2>Kirchen und Denkmäler</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.zaeune %}
                 <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
@@ -55,15 +55,7 @@ title:  Galerie
                 {% for image in site.data.restaurierung %}
                 <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
                 {% endfor %}
-                </nav>
-
-				<h2>Gitter</h2>
-                <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
-                {% for image in site.data.gitter %}
-                <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
-                {% endfor %}
-                </nav>
-
+                </nav>
 				<h2>Verschiedenes</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.verschiedenes %}
