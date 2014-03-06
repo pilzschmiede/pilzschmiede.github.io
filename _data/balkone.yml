@@ -1,6 +1,17 @@
-- name: Wetterhahn
-  datei: heim_1
+- name: Balkon
+  datei: balkonhaertl
 
-- name: Parkbank
-  datei: heim_2
+- name: Balkon
+  datei: balkonschiller
 
+- name: Balkon
+  datei: balkonpassek
+  
+- name: Balkon
+  datei: gelaenderhaertl
+  
+- name: Balkon
+  datei: balkonkoll
+  
+- name: Balkon
+  datei: terrassefeldafing
