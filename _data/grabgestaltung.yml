@@ -1,6 +1,9 @@
-- name: Wetterhahn
-  datei: heim_1
+- name: Grabkreuz
+  datei: grabkreuz1
 
-- name: Parkbank
-  datei: heim_2
+- name: Grablampe
+  datei: grablampe
 
+- name: Urnenwand
+  datei: urnenwand
+  
