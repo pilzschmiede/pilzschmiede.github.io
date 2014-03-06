@@ -1,6 +1,18 @@
-- name: Wetterhahn
-  datei: heim_1
+- name: Bank
+  datei: bank
 
-- name: Parkbank
-  datei: heim_2
+- name: Kleiderständer
+  datei: kleiderstaenderschiller
+  
+- name: Klingel
+  datei: klingel
+  
+- name: Nachttisch
+  datei: nachttischschiller
+  
+- name: Beistelltisch
+  datei: tischelke
+  
+- name: Holzwagen
+  datei: holzwagen
 
