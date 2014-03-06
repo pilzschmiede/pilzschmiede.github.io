@@ -1,6 +1,7 @@
-- name: Wetterhahn
-  datei: heim_1
+- name: Altenkirchen
+  datei: handlaeufealtenkirchen
 
-- name: Parkbank
-  datei: heim_2
+- name: Altenkirchen 2
+  datei: handlaeufealtenkirchen2
+
 
