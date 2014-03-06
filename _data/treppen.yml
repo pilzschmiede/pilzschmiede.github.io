@@ -1,17 +1,17 @@
-- name: Handlauf geschmiedet
-  datei: treppe_1
+- name: Treppe
+  datei: gelaendergillmaier
 
-- name: Balkongeländer
-  datei: balkonschiller
+- name: Treppe
+  datei: gelaendernordmann
 
-- name: Handlauf
-  datei: treppe_3
+- name: Treppe
+  datei: altreppe
 
-- name: Handlauf Schlosskeller
-  datei: treppe_4
+- name: Treppe
+  datei: treppereith
 
-- name: Geschmiedete Handläufe
-  datei: treppe_5
+- name: Treppe
+  datei: treppehofbauer2
 
-- name: Handlauf geschmiedet
-  datei: treppe_6
+- name: Treppe
+  datei: treppehofbauer3
