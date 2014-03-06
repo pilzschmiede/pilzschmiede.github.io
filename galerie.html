@@ -13,9 +13,16 @@ title: Galerie
 				</header>
                 <p>Unsere Arbeit beginnt mit Ihren Vorstellungen und Ideen und der individuellen Planung des Produkts. Gemeinsam mit Ihnen suchen wir konkrete Lösungen, die sich an die architektonischen Gegebenheiten anpassen. Details werden in einer Vorabskizze ausgearbeitet oder in einer dreidimensionalen Computerzeichnung anschaulich gemacht. So erhalten Sie eine genaue Vorstellung vom späteren Ergebnis und können Ihre Wünsche während der gesamten Planungsphase einbringen.</p>
 
-				<h2>Treppen, Geländer und Zäune</h2>
+				<h2>Treppen und Treppengeländer</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.treppen %}
+                <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
+                {% endfor %}
+                </nav>
+				
+				<h2>>Balkone und Balkongeländer</h2>
+                <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
+                {% for image in site.data.balkone %}
                 <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
                 {% endfor %}
                 </nav>
@@ -27,20 +34,20 @@ title: Galerie
                 {% endfor %}
                 </nav>
 
-				<h2>Möbel und Accessoires</h2>
-                <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
-                {% for image in site.data.heimgarten %}
-                <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
-                {% endfor %}
-                </nav>
-
-				<h2>Türen und Tore</h2>
+				<h2>Türen, Tore und Zäune</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.tueretore %}
                 <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
                 {% endfor %}
                 </nav>
-
+				
+				<h2>Möbel und Accessoires</h2>
+                <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
+                {% for image in site.data.moebelaccessoires %}
+                <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
+                {% endfor %}
+                </nav>
+				
 				<h2>Grabgestaltung</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.grabgestaltung %}
@@ -50,7 +57,7 @@ title: Galerie
 
 				<h2>Kirchen und Denkmäler</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
-                {% for image in site.data.zaeune %}
+                {% for image in site.data.kirchendenkmaeler %}
                 <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
                 {% endfor %}
                 </nav>
