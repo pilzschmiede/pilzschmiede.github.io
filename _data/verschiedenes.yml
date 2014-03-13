@@ -1,6 +1,17 @@
+- name: Messer aus Damaszenerstahl
+  datei: damaszener
+
 - name: Wetterhahn
-  datei: heim_1
+  datei: wetterhahn
 
-- name: Parkbank
-  datei: heim_2
+- name: Rauchabzug
+  datei: abzug2
 
+- name: Garderobe
+  datei: garderobe
+  
+- name: Rose
+  datei: rose
+  
+- name: Brotzeit
+  datei: brezel
