@@ -1,6 +1,12 @@
-- name: Wetterhahn
-  datei: heim_1
+- name: Kirchentor
+  datei: kirchereith
 
-- name: Parkbank
-  datei: heim_2
+- name: Chorhandlauf
+  datei: handlaeufealtenkirchen
 
+- name: Handlauf	
+  datei: treppe_3
+  
+- name: handlauf kirche
+  datei: handlaeufealtenkirchen2
+  
