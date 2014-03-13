@@ -1,6 +1,15 @@
-- name: Wetterhahn
-  datei: heim_1
+- name: Verlorener Arm an Christusfigur
+  datei: arm
 
-- name: Parkbank
-  datei: heim_2
+- name: Restauriertes Geländer
+  datei: gelaenderu66
 
+- name: Restauriertes Schrankschloss
+  datei: schrankschloss
+  
+- name: Restauriertes Grabkreuz
+  datei: grabkreuzlandau
+  
+- name: Kopie einer Wandlampe
+  datei: lampennachbau
+  
