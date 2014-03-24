@@ -7,3 +7,12 @@
 - name: Urnenwand
   datei: urnenwand
   
+- name: Grabkreuz
+  datei: kreuzstoeckl
+  
+- name: Grablampe
+  datei: lampestoeckl
+  
+- name: Weihwasserkessel
+  datei: kesselstoeckl
+  
