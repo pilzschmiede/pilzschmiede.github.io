@@ -31,7 +31,7 @@
 		font-family: 'Book Antiqua', 'Palatino Linotype', 'Balthazar', sans-serif;
 		font-weight: 700;
 	}
-	
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
 			color: inherit;
@@ -42,44 +42,44 @@
 	{
 		font-weight: bold;
 	}
-	
+
 	em, i
 	{
 		font-style: italic;
 	}
-	
+
 	sub
 	{
 		position: relative;
 		top: 0.5em;
 		font-size: 0.8em;
 	}
-	
+
 	sup
 	{
 		position: relative;
 		top: -0.5em;
 		font-size: 0.8em;
 	}
-	
+
 	hr
 	{
 		border: 0;
 		border-top: solid 1px #ddd;
 	}
-	
+
 	blockquote
 	{
 		border-left: solid 0.5em #ddd;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
-	
+
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 1em;
 	}
-	
+
 	p
 	{
 		line-height: 2.25em;
@@ -89,25 +89,25 @@
 	{
 		clear: both;
 	}
-	
+
 	a
 	{
 		color: #bbbbbb;
 	}
-	
+
 	a:hover
 	{
 		text-decoration: none;
 	}
 
 	/* Sections/Articles */
-	
+
 		section,
 		article
 		{
 			margin-bottom: 3em;
 		}
-		
+
 		section > :last-child,
 		article > :last-child
 		{
@@ -126,7 +126,7 @@
 		{
 			display: inline-block;
 		}
-		
+
 			.image img
 			{
 				display: block;
@@ -139,13 +139,13 @@
 				width: 100%;
 				margin: 0 0 2em 0;
 			}
-			
+
 			.image-left
 			{
 				float: left;
 				margin: 0 2em 2em 0;
 			}
-			
+
 			.image-centered
 			{
 				display: block;
@@ -163,7 +163,7 @@
 		ul.style1
 		{
 		}
-		
+
 			ul.style1 li
 			{
 				padding: 0.50em 0em;
@@ -176,26 +176,26 @@
 			list-style: none;
 			cursor: default;
 		}
-		
+
 			ul.contact li
 			{
 				display: inline-block;
 				padding: 0em 0.30em;
 				font-size: 1.2em;
 			}
-			
+
 			ul.contact li span
 			{
 				display: none;
 				margin: 0;
 				padding: 0;
 			}
-			
+
 			ul.contact li a
 			{
 				color: #FFF;
 			}
-			
+
 			ul.contact li a:before
 			{
 				display: inline-block;
@@ -223,7 +223,7 @@
 				transition: all .25s ease-in-out;
 				color: #FFF;
 			}
-			
+
 			ul.contact li a:active:before
 			{
 				background: #2b2b2b;
@@ -240,12 +240,12 @@
 		form
 		{
 		}
-		
+
 			form label
 			{
 				display: block;
 			}
-		
+
 			form input.text,
 			form select,
 			form textarea
@@ -268,7 +268,7 @@
 				form textarea:focus
 				{
 				}
-				
+
 				form textarea
 				{
 					min-height: 9em;
@@ -303,53 +303,53 @@
 				{
 					border: 0;
 				}
-			
+
 	/* Tables */
-	
+
 		table
 		{
 			width: 100%;
 		}
-		
+
 			table.style1
 			{
 				width: 100%;
 			}
-			
+
 				table.style1 tbody tr:nth-child(2n+2)
 				{
 					background: #f4f4f4;
 				}
-				
+
 				table.style1 td
 				{
 					padding: 0.5em 1em 0.5em 1em;
 				}
-				
+
 				table.style1 th
 				{
 					text-align: left;
 					font-weight: bold;
 					padding: 0.5em 1em 0.5em 1em;
 				}
-			
+
 				table.style1 thead
 				{
 					background: #444;
 					color: #fff;
 				}
-				
+
 				table.style1 tfoot
 				{
 					background: #eee;
 				}
-				
+
 				table.style1 tbody
 				{
 				}
 
 	/* Buttons */
-		
+
 		.button
 		{
 			display: inline-block;
@@ -382,7 +382,7 @@
 				-o-transition: all .25s ease-in-out;
 				transition: all .25s ease-in-out;
 			}
-			
+
 			.button:active
 			{
 				background: #ae424d;
@@ -392,7 +392,7 @@
 				-o-transition: all .25s ease-in-out;
 				transition: all .25s ease-in-out;
 			}
-		
+
 			.button-alt
 			{
 				background: #2e2e2e;
@@ -402,12 +402,12 @@
 				{
 					background: #393939;
 				}
-				
+
 				.button-alt:active
 				{
 					background: #2b2b2b;
 				}
-		
+
 			.button-big
 			{
 				line-height: 3.5em;
@@ -416,7 +416,7 @@
 			}
 
 	/* Header */
-	
+
 		header
 		{
 			margin-bottom: 1.5em;
@@ -835,34 +835,34 @@
         -webkit-box-shadow: 0px 6px 6px rgba(70, 70, 70, 0.9);
         -moz-box-shadow:    0px 6px 6px rgba(70, 70, 70, 0.9);
         box-shadow:         0px 6px 6px rgba(70, 70, 70, 0.9);
-        
+
 	}
-	
+
 	#banner-wrapper
 	{
 		position: relative;
 		background: #3b3b3b;
 	}
-	
+
 	#features-wrapper
 	{
 		position: relative;
 		background: #fff;
 	}
-	
+
 	#main-wrapper
 	{
 		position: relative;
 		overflow: hidden;
 		background: #3b3b3b url(../images/watermark.png) repeat ;
-        
+
 	}
-	
+
 	.homepage #main-wrapper
 	{
 		background: #3b3b3b url(../images/watermark.png) repeat ;
 	}
-	
+
 	#footer-wrapper
 	{
 		position: relative;
@@ -877,7 +877,7 @@
 /* Logo                                                                          */
 /*********************************************************************************/
 
-    #logo-man { 
+    #logo-man {
         position: relative;
         z-index: 1;
         top: -80px;
@@ -899,7 +899,7 @@
 		font-weight: normal;
         font-family: "Book Antiqua", 'Palatino Linotype','Balthazar';
 	}
-	
+
 		#logo:after
 		{
 			content: '';
@@ -909,7 +909,7 @@
 			border-left: solid 1px rgba(64,64,64,0);
 			border-right: solid 1px rgba(64,64,64,0);
 		}
-		
+
 		#logo a
 		{
 			position: relative;
@@ -918,7 +918,7 @@
 			border: 0;
 			color: #fff;
 		}
-		
+
 			#logo a > span
 			{
 				display: inline-block;
@@ -946,12 +946,12 @@
 	{
 		text-align: center;
 	}
-	
+
 	#footer h2
 	{
 		font-weight: 700;
 	}
-	
+
 	#footer p
 	{
 		letter-spacing: 0.10em;
@@ -961,7 +961,7 @@
 /* Copyright                                                                     */
 /*********************************************************************************/
 
-	#copyright 
+	#copyright
 	{
 		overflow: hidden;
 		text-align: center;
@@ -979,7 +979,7 @@
 		width: 100%;
 		cursor: default;
 	}
-	
+
 		#slider .caption
 		{
 			position: absolute;
@@ -990,14 +990,14 @@
 			z-index: 3;
 			text-align: center;
 		}
-		
+
 			#slider .caption h2
 			{
 				font-weight: 700;
 				color: #ffffff;
 				text-transform: uppercase;
 			}
-			
+
 			#slider .caption p
 			{
 				opacity: 0.5;
@@ -1011,18 +1011,18 @@
 /*********************************************************************************/
 /* Intro                                                                         */
 /*********************************************************************************/
-	
+
 	#intro
 	{
 		overflow: hidden;
 		text-align: center;
-	}	
-	
+	}
+
 		#intro header h2
 		{
 			font-weight: 700;
 		}
-		
+
 		#intro .number
 		{
 			display: inline-block;
@@ -1037,15 +1037,35 @@
 			font-weight: 700;
 			color: #FFF;
 		}
-		
+
 		#intro section:last-child
 		{
 			border-right: none;
 		}
-        
-        
+
+
 /**********/
 /* Custom */
 
+/* Homepage News */
+    #news
+    {
+        text-align: center;
+        padding: 2em;
+        -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.3);
+        -moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.3);
+        box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.3);
+        background-color: #a71b27;
+        width: 800px !important;
+        margin-bottom: 4em;
+    }
+        #news header h2
+        {
+            font-weight: 700;
+        }
+        #news p
+        {
+            line-height: 1.5em;
+        }
+
 #galleria{height:540px}
-                
