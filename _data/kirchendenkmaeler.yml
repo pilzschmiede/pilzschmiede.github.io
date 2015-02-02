@@ -6,10 +6,10 @@
 
 - name: Handlauf	
   datei: treppe_3
-  
+
 - name: handlauf kirche
   datei: handlaeufealtenkirchen2
-  
- - name: Altargitter
+
+- name: Altargitter
   datei: altargitter
-  
+
