@@ -1,5 +1,5 @@
 - name: Grabkreuz
-  datei: grabkreuz1
+  datei: Kreuz
 
 - name: Grablampe
   datei: grablampe
@@ -11,7 +11,7 @@
   datei: kreuzstoeckl
   
 - name: Grablampe
-  datei: lampestoeckl
+  datei: grabkreuzsteeger
   
 - name: Weihwasserkessel
   datei: kesselstoeckl
