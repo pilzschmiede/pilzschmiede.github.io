@@ -13,6 +13,6 @@
 - name: Beistelltisch
   datei: tischelke
   
-- name: Holzwagen
-  datei: holzwagen
+- name: Deckenlampe
+  datei: fendingerlampe
 

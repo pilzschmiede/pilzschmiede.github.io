@@ -34,13 +34,20 @@ title: Galerie
                 {% endfor %}
                 </nav>
 
-				<h2>Türen, Tore und Zäune</h2>
+				<h2>Tore</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.tueretore %}
                 <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
                 {% endfor %}
                 </nav>
 				
+				h2>Zäune</h2>
+                <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
+                {% for image in site.data.zaeune %}
+                <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
+                {% endfor %}
+                </nav>
+								
 				<h2>Möbel und Accessoires</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.moebelaccessoires %}

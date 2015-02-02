@@ -10,3 +10,6 @@
 - name: handlauf kirche
   datei: handlaeufealtenkirchen2
   
+ - name: Altargitter
+  datei: altargitter
+  

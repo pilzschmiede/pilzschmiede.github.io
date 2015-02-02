@@ -10,8 +10,8 @@
 - name: Grabkreuz
   datei: kreuzstoeckl
   
-- name: Grablampe
-  datei: grabkreuzsteeger
+- name: Grabkreuz
+  datei: grabkreuzsteegerklein
   
 - name: Weihwasserkessel
   datei: kesselstoeckl
