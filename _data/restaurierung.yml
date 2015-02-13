@@ -7,9 +7,11 @@
 - name: Restauriertes Schrankschloss
   datei: schrankschloss
   
-- name: Restauriertes Grabkreuz
-  datei: grabkreuzlandau
+- name: Blattvergoldung
+  datei: vergolden
   
 - name: Kopie einer Wandlampe
   datei: lampennachbau
   
+- name: Kopie eines Barockblattes
+  datei: barockblatt
