@@ -1,18 +1,18 @@
 - name: Bank
   datei: bank
 
-- name: Kleiderständer
+- name: Kleiderständer geschmiedet
   datei: kleiderstaenderschiller
   
-- name: Klingel
-  datei: tuerklingel
+- name: Jugendstilgarderobe mit Tombakelementen, Spiegel und ausklappbaren Seitenteilen
+  datei: jugendstilgarderobe
   
-- name: Nachttisch
+- name: Nachttisch mit Glasplatte
   datei: nachttischschiller
   
-- name: Beistelltisch
+- name: Beistelltisch mit Teller aus Neusilber
   datei: tischelke
   
-- name: Deckenlampe
+- name: Deckenlampe mit drehbaren LED-Spots nach oben und unten
   datei: fendingerlampe
 

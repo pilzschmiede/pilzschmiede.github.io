@@ -4,7 +4,7 @@
 - name: Restauriertes Geländer
   datei: gelaenderu
 
-- name: Restauriertes Schrankschloss
+- name: Restauriertes Barock-Schrankschloss
   datei: schrankschloss
   
 - name: Blattvergoldung

@@ -7,7 +7,7 @@
 - name: Handlauf	
   datei: treppe_3
 
-- name: handlauf kirche
+- name: Handlauf an Eingangstreppe
   datei: handlaeufealtenkirchen2
 
 - name: Kapellengitter
