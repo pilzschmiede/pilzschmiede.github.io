@@ -1,0 +1,27 @@
+---
+layout: shell
+title: Restaurierung
+---
+
+		<!-- Main Wrapper -->
+		<div id="main-wrapper">
+        	<link rel="stylesheet" href="css/gallery.css" />
+        	<link rel="stylesheet" href="css/photoswipe.css" />
+			<section id="content" class="container">
+				<header>
+					<h2>Restaurierung</h2>
+				</header>
+                <p>Hier Text …</p>
+
+
+
+				<h2>Restaurierung</h2>
+                <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
+                {% for image in site.data.restaurierung %}
+                <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
+                {% endfor %}
+                </nav>
+                
+        	</section>
+            
+		</div>
