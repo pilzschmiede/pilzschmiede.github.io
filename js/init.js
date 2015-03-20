@@ -14,7 +14,8 @@ var settings = {
 			
 			'images/slide01.jpg': 'bottom center',
 			'images/slide02.jpg': 'top center',
-			'images/slide03.jpg': 'bottom center'
+			'images/slide03.jpg': 'bottom center',
+			'images/slide04.jpg': 'center center'
 
 		},
 
