@@ -31,44 +31,8 @@ class: homepage
 
 					<div id="famax" class="famax"></div>
 
-				<script>
-					$('#famax').famax({
-						
-						//MANDATORY
-						appId:'852602131447787',
-						accessToken:'CAAJTO0BbbJUBAE3jj7KpVcLZAZBsaTIUvVH1lv5p7Yc4WmxMdsRddXYrNolfzC3QVLHjyLjsKEskfuEmwtHqJSTYEyPY9cZAhAif3DIQjjSIVTZB5uojFPyjtpeCkV0ykIrY4mlmAEFLdnx2TIFLgbPrFY9amb54nUIEGREAZC885mQuTeUaslOWfQRm187zdYUOD6NFsIHVqXRFpJkVi',
-
-						fanPage:'https://www.facebook.com/bonobos',
-						
-						album : [
-							"https://www.facebook.com/media/set/?set=a.10151895992416815.1073741832.8417606814&type=3",
-							"https://www.facebook.com/media/set/?set=a.10151315494916815.522233.8417606814&type=3"
-						],
-
-						//NON MANDATORY
-						maxResults:6, //Maximum videos to display in one load
-						innerOffset: 40, //Distance between video thumbnails
-						minItemWidth: 300, //Minumum width of a video thumbnails
-						maxItemWidth : 450, //Maximum width of a video thumbnails
-						outerOffset: 40, //Distance between video thumbnails and plugin conatiner
-						maxContainerWidth: 1000, //Maximum width of plugin container
-						alwaysUseDropdown: false,
-						imagesFolderPath: './images',
-						maxAttachments: 3,
-						selectedTab: 'p',
-						skin:'grey',
-						displayMetricsForTags:false,
-						displayMetricsForPosts:true,
-						maxComments:14, 
-						onClickAction:'popup',
-						refreshTimeout:1000
-
-					});
-				</script>
-
-
 				</div>
-
+				
 				<div class="row">
 					<section class="4u">
 						<span class="number">1</span>
@@ -103,3 +67,39 @@ Klassisch bis modern, schlicht bis aufwändig, funktional und dekorativ. Metall 
 
 	</div>
 
+<script>
+$( document ).ready(function() {
+	$('#famax').famax({
+			
+			//MANDATORY
+			appId:'1409945462646947',
+			accessToken:'CAAUCVoJ0KKMBAFZB3fDLU4ezMZBKu4Txpzq38reOBkDIlOEhCl1rc2AfIF2sDDLJZB3B2n9I4FZAZBbY1aAw90MhB5MjR5l5jtafooo7tLGVJbnXD7DJe5Dgmpc8fwLJg91cic3elaTJ6iEQnwXlyoyTibeocvxkUeAiZC21GCHJHAk21yEJlQ',
+
+			fanPage:'https://www.facebook.com/PilzMetallgestaltung',
+			
+			album : [
+				"https://www.facebook.com/media/set/?set=a.543895362385329.1073741827.543879645720234&type=3",
+				"https://www.facebook.com/media/set/?set=vb.543879645720234&type=2"
+			],
+
+			//NON MANDATORY
+			maxResults:3, //Maximum videos to display in one load
+			innerOffset: 40, //Distance between video thumbnails
+			minItemWidth: 300, //Minumum width of a video thumbnails
+			maxItemWidth : 450, //Maximum width of a video thumbnails
+			outerOffset: 40, //Distance between video thumbnails and plugin conatiner
+			maxContainerWidth: 1250, //Maximum width of plugin container
+			alwaysUseDropdown: false,
+			imagesFolderPath: './images',
+			maxAttachments: 3,
+			selectedTab: 'p',
+			skin:'grey',
+			displayMetricsForTags:false,
+			displayMetricsForPosts:true,
+			maxComments:14, 
+			onClickAction:'popup',
+			refreshTimeout:1000
+
+		});
+});
+</script>
