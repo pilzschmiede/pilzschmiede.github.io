@@ -69,13 +69,6 @@ title: Galerie
                 {% endfor %}
                 </nav>
 
-				<h2>Restaurierung</h2>
-                <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
-                {% for image in site.data.restaurierung %}
-                <a href="gallery/{{ image.datei }}.jpg"><img src="gallery/{{ image.datei }}_thumb.jpg" title="{{ image.name }}" ></a>
-                {% endfor %}
-                </nav>
-
 				<h2>Verschiedenes</h2>
                 <nav class="pat-gallery" data-pat-gallery="hide-overlay: 0">
                 {% for image in site.data.verschiedenes %}
