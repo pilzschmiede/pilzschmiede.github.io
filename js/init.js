@@ -122,4 +122,36 @@ $(function() {
 				});
 		}
 
+					$('#famax').famax({
+						//MANDATORY
+						appId:'852602131447787',
+						accessToken:'CAAJTO0BbbJUBAE3jj7KpVcLZAZBsaTIUvVH1lv5p7Yc4WmxMdsRddXYrNolfzC3QVLHjyLjsKEskfuEmwtHqJSTYEyPY9cZAhAif3DIQjjSIVTZB5uojFPyjtpeCkV0ykIrY4mlmAEFLdnx2TIFLgbPrFY9amb54nUIEGREAZC885mQuTeUaslOWfQRm187zdYUOD6NFsIHVqXRFpJkVi',
+
+						fanPage:'https://www.facebook.com/bonobos',
+						
+						album : [
+							"https://www.facebook.com/media/set/?set=a.10151895992416815.1073741832.8417606814&type=3",
+							"https://www.facebook.com/media/set/?set=a.10151315494916815.522233.8417606814&type=3"
+						],
+
+						//NON MANDATORY
+						maxResults:6, //Maximum videos to display in one load
+						innerOffset: 40, //Distance between video thumbnails
+						minItemWidth: 300, //Minumum width of a video thumbnails
+						maxItemWidth : 450, //Maximum width of a video thumbnails
+						outerOffset: 40, //Distance between video thumbnails and plugin conatiner
+						maxContainerWidth: 1000, //Maximum width of plugin container
+						alwaysUseDropdown: false,
+						imagesFolderPath: './images',
+						maxAttachments: 3,
+						selectedTab: 'p',
+						skin:'grey',
+						displayMetricsForTags:false,
+						displayMetricsForPosts:true,
+						maxComments:14, 
+						onClickAction:'popup',
+						refreshTimeout:1000
+
+					});
+
 });
