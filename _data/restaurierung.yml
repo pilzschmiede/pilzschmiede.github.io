@@ -15,3 +15,10 @@
   
 - name: Kopie eines Barockblattes
   datei: barockblatt
+  
+- name: historisches Haustürschloss
+  datei: tuerschloss
+  
+- name: Barocktruhe
+  datei: truhe
+  
