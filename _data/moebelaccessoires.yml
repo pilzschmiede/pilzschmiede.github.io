@@ -4,8 +4,8 @@
 - name: Kleiderständer geschmiedet
   datei: kleiderstaenderschiller
   
-- name: Jugendstilgarderobe mit Tombakelementen, Spiegel und ausklappbaren Seitenteilen
-  datei: jugendstilgarderobe
+- name: Bank
+  datei: musterbank
   
 - name: Nachttisch mit Glasplatte
   datei: nachttischschiller
