@@ -10,14 +10,14 @@
 - name: Blattvergoldung
   datei: vergolden
   
-- name: Kopie einer Wandlampe
-  datei: lampennachbau
+- name: Brückengeländer Vorzustand
+  datei: l05
   
 - name: Kopie eines Barockblattes
   datei: barockblatt
   
-- name: historisches Haustürschloss
-  datei: tuerschloss
+- name: Restaurierung eines gotischen Türbeschlages
+  datei: hirschkofen
   
 - name: Barocktruhe
   datei: truhe
